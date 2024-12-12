@@ -391,16 +391,24 @@ team2 > team1 && console.log('team2');
 
 
 ////////////////// strings /////////////////////
-
+/*
 // padding
+
 // const message = 'good'
 // console.log(message.padStart(25,'🎉').padEnd(35,'+'));
 
 const maskCreditCard = function(number){
   const str = number + ""
-  const newMaskNumber = str.slice(-4).padStart(str.length,'X')
-  console.log(newMaskNumber);
-  
+  return str.slice(-4).padStart(str.length,'X')
 }
 
-maskCreditCard(1234567)
+console.log(maskCreditCard(12344567887634224));
+
+// repeat
+
+const message = 'good morning\n';
+console.log(message.repeat(4));
+console.log(message.length);
+
+*/
+
