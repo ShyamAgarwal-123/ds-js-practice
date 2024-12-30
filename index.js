@@ -412,3 +412,77 @@ console.log(message.length);
 
 */
 
+
+
+const arr = [1,4,[3,6]]
+
+// const [...arr2] = arr
+
+// arr2[1] = 8
+
+// console.log(arr);
+
+
+// console.log(a,b,c,d);
+// a = 10
+
+// console.log(a,b,c,d);
+
+
+// let [a,,[c,d]]  = arr
+// console.log(a,c,d);
+
+// [b,a] = [a,b]
+// console.log(a,b);
+///////////////////////////////
+// const object = {
+//   time: '22:30',
+//   address: 'Via del Sole, 21',
+//   mainIndex: 2,
+//   starterIndex: 2,
+// }
+
+
+// const {address='shyam',mainIndex=[],shyam=[]}  = object
+ 
+// console.log(address,mainIndex,shyam);
+
+
+// let a = 111;
+// let b = 999;
+// const obj = { a: 23, b: {d:7,e:9}, c: 14 };
+// ({ a, b } = obj);
+// console.log(a, b);
+
+// let {a:shyam,b:{d,e}} = obj
+
+// console.log(a,d,e);
+
+
+// const arr4 = [1,2]
+
+// const arr5 = [4,5]
+
+// const newArr = arr4.concat(arr5)
+
+// console.log(newArr);
+
+
+// const str = 'Jonas';
+// // const letters = [...str, ' ', 'S.'];
+// // console.log(letters);
+// console.log(...str);
+
+// let [shyam,d] = 'golu'
+let shyam = 'ram'
+
+const newRestaurant = { 
+  foundedIn: 1998, 
+  founder: [],
+  [shyam]:2
+};
+
+console.log(typeof newRestaurant['ram']);
+
+
+
